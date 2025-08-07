@@ -7,8 +7,6 @@ Right now, I'm a freelance software developer with experience building systems i
 I spend most of my time solving hard problems, because I believe that's where the most valuable learning happens.  
 Also a street photoholic who likes turning small moments into short self-made videos.
 
----
-
 ## 🚀 Thing I code with
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
@@ -28,5 +26,3 @@ Also a street photoholic who likes turning small moments into short self-made vi
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white)
 ![Prettier](https://img.shields.io/badge/-Prettier-F7B93E?style=flat-square&logo=prettier&logoColor=white)
-
----
