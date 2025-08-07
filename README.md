@@ -1,4 +1,14 @@
-## Hi there 👋 I'm Nguyên Khánh
+## Nguyen Khanh - @the.melancodeur
+
+Hi, I'm Nguyen Khanh
+
+Right now, I'm a freelance software developer with practical experience building systems for human resource management, e-learning platforms, and point-of-sale solutions. While the domains may vary, what excites me most is the process of solving real-world problems through code.
+
+I have a strong curiosity for how technologies work under the hood. I often find myself digging deep — not just to make things work, but to understand why they work, how they can be improved, and how to apply them more effectively in different contexts.
+
+I usually spend a lot of time working through difficult challenges. I believe it's exactly those hard problems that push me to learn, sharpen my thinking, and grow as a developer. Whether it's a tough bug or an architectural trade-off, I enjoy getting my hands dirty and figuring things out.
+
+Outside of work, I enjoy capturing street moments and occasionally turning them into short self-made videos — just for fun.
 
 <!--
 **khanhtran719/khanhtran719** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
