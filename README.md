@@ -7,7 +7,7 @@ Right now, I'm a freelance software developer with experience building systems i
 I spend most of my time solving hard problems, because I believe that's where the most valuable learning happens.  
 Also a street photoholic who likes turning small moments into short self-made videos.
 
-## 🚀 Thing I code with
+## 🚀 Things I code with
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
