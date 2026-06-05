@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-banner.svg" alt="The Melan Codeur — Nguyen Khanh, backend systems built with a cinematic eye" />
+  <img src="./assets/profile-banner.svg" alt="The Melan Codeur — Nguyen Khanh, black and white pencil sketch profile banner" />
 </p>
 
 # Nguyen Khanh · @the.melancodeur
