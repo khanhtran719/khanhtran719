@@ -1,86 +1,143 @@
-<svg width="1200" height="280" viewBox="0 0 1200 280" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Nguyen Khanh — Backend systems, built with a cinematic eye</title>
-  <desc id="desc">A monochrome cinematic noir GitHub profile banner with film-frame lines and a small backend system flow: API, Queue, Data, Cache, Deploy.</desc>
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">The Melan Codeur — Nguyen Khanh</title>
+  <desc id="desc">A cinematic noir GitHub profile banner combining a film contact sheet, production-grade backend system map, and Nguyen Khanh's creative signature.</desc>
 
   <defs>
-    <linearGradient id="vignette" x1="0" y1="0" x2="1200" y2="280" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#050505"/>
-      <stop offset="0.45" stop-color="#111111"/>
-      <stop offset="1" stop-color="#030303"/>
+    <linearGradient id="base" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#18140D"/>
+      <stop offset="0.28" stop-color="#090908"/>
+      <stop offset="0.72" stop-color="#050506"/>
+      <stop offset="1" stop-color="#111111"/>
     </linearGradient>
-    <pattern id="grain" width="18" height="18" patternUnits="userSpaceOnUse">
-      <path d="M1 1H2V2H1V1ZM11 4H12V5H11V4ZM6 13H7V14H6V13ZM15 16H16V17H15V16Z" fill="#FFFFFF" fill-opacity="0.09"/>
+
+    <radialGradient id="lamp" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(258 72) rotate(62) scale(360 520)">
+      <stop offset="0" stop-color="#E5C16D" stop-opacity="0.55"/>
+      <stop offset="0.22" stop-color="#B9873D" stop-opacity="0.22"/>
+      <stop offset="0.65" stop-color="#111111" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="monitorGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(878 164) rotate(90) scale(180 320)">
+      <stop offset="0" stop-color="#CFC8B5" stop-opacity="0.22"/>
+      <stop offset="0.48" stop-color="#6E6659" stop-opacity="0.09"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="grain" width="22" height="22" patternUnits="userSpaceOnUse">
+      <path d="M2 3H3V4H2V3ZM18 5H19V6H18V5ZM10 11H11V12H10V11ZM5 18H6V19H5V18ZM15 16H16V17H15V16Z" fill="#FFFFFF" fill-opacity="0.08"/>
     </pattern>
-    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" stroke="#FFFFFF" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+
+    <filter id="blurGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.9  0 1 0 0 0.78  0 0 1 0 0.48  0 0 0 0.75 0"/>
       <feMerge>
-        <feMergeNode in="blur"/>
+        <feMergeNode/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
   </defs>
 
-  <rect width="1200" height="280" rx="24" fill="url(#vignette)"/>
-  <rect width="1200" height="280" rx="24" fill="url(#grain)" opacity="0.35"/>
+  <rect width="1200" height="360" rx="30" fill="url(#base)"/>
+  <rect width="1200" height="360" rx="30" fill="url(#lamp)"/>
+  <rect width="1200" height="360" rx="30" fill="url(#monitorGlow)"/>
+  <rect width="1200" height="360" rx="30" fill="url(#grid)" opacity="0.85"/>
+  <rect width="1200" height="360" rx="30" fill="url(#grain)" opacity="0.45"/>
 
-  <!-- film frame rails -->
-  <path d="M54 38H1146" stroke="#F5F5F5" stroke-opacity="0.24" stroke-width="1"/>
-  <path d="M54 242H1146" stroke="#F5F5F5" stroke-opacity="0.24" stroke-width="1"/>
-  <path d="M72 56V224" stroke="#F5F5F5" stroke-opacity="0.18" stroke-width="1"/>
-  <path d="M1128 56V224" stroke="#F5F5F5" stroke-opacity="0.18" stroke-width="1"/>
+  <!-- cinema safe frame -->
+  <rect x="34" y="30" width="1132" height="300" rx="18" stroke="#F5E8C8" stroke-opacity="0.18"/>
+  <path d="M76 70H456" stroke="#F5E8C8" stroke-opacity="0.20"/>
+  <path d="M76 290H456" stroke="#F5E8C8" stroke-opacity="0.16"/>
+  <path d="M786 70H1124" stroke="#F5E8C8" stroke-opacity="0.14"/>
+  <path d="M786 290H1124" stroke="#F5E8C8" stroke-opacity="0.14"/>
 
-  <!-- sprocket marks -->
-  <g opacity="0.42">
-    <rect x="96" y="31" width="24" height="6" rx="3" fill="#F4F4F4"/>
-    <rect x="158" y="31" width="24" height="6" rx="3" fill="#F4F4F4"/>
-    <rect x="220" y="31" width="24" height="6" rx="3" fill="#F4F4F4"/>
-    <rect x="282" y="31" width="24" height="6" rx="3" fill="#F4F4F4"/>
-    <rect x="1014" y="31" width="24" height="6" rx="3" fill="#F4F4F4"/>
-    <rect x="1076" y="31" width="24" height="6" rx="3" fill="#F4F4F4"/>
-    <rect x="96" y="243" width="24" height="6" rx="3" fill="#F4F4F4"/>
-    <rect x="158" y="243" width="24" height="6" rx="3" fill="#F4F4F4"/>
-    <rect x="220" y="243" width="24" height="6" rx="3" fill="#F4F4F4"/>
-    <rect x="282" y="243" width="24" height="6" rx="3" fill="#F4F4F4"/>
-    <rect x="1014" y="243" width="24" height="6" rx="3" fill="#F4F4F4"/>
-    <rect x="1076" y="243" width="24" height="6" rx="3" fill="#F4F4F4"/>
-  </g>
-
-  <!-- left title block -->
-  <text x="118" y="113" fill="#F7F7F2" font-family="SF Pro Display, Inter, Helvetica Neue, Arial, sans-serif" font-size="46" font-weight="650" letter-spacing="-1.4">NGUYEN KHANH</text>
-  <text x="120" y="146" fill="#B9B9B1" font-family="SF Mono, ui-monospace, Menlo, Consolas, monospace" font-size="15" letter-spacing="2.4">@the.melancodeur</text>
-  <text x="120" y="185" fill="#E8E8E0" font-family="SF Pro Text, Inter, Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="420" letter-spacing="-0.25">Backend systems, built with a cinematic eye.</text>
-
-  <!-- right technical system frame -->
-  <g transform="translate(690 78)" font-family="SF Mono, ui-monospace, Menlo, Consolas, monospace" font-size="12" letter-spacing="1.2">
-    <rect x="0" y="0" width="354" height="112" rx="14" fill="#FFFFFF" fill-opacity="0.035" stroke="#FFFFFF" stroke-opacity="0.13"/>
-
-    <g filter="url(#softGlow)">
-      <circle cx="52" cy="56" r="22" stroke="#F1F1EA" stroke-opacity="0.7"/>
-      <circle cx="140" cy="56" r="22" stroke="#F1F1EA" stroke-opacity="0.62"/>
-      <circle cx="228" cy="56" r="22" stroke="#F1F1EA" stroke-opacity="0.62"/>
-      <circle cx="306" cy="56" r="22" stroke="#F1F1EA" stroke-opacity="0.7"/>
-      <path d="M74 56H118" stroke="#F1F1EA" stroke-opacity="0.45" stroke-width="1.2" stroke-dasharray="4 6"/>
-      <path d="M162 56H206" stroke="#F1F1EA" stroke-opacity="0.45" stroke-width="1.2" stroke-dasharray="4 6"/>
-      <path d="M250 56H284" stroke="#F1F1EA" stroke-opacity="0.45" stroke-width="1.2" stroke-dasharray="4 6"/>
+  <!-- film contact strip -->
+  <g transform="translate(54 54)" opacity="0.95">
+    <rect x="0" y="0" width="88" height="252" rx="14" fill="#0A0A0A" stroke="#F8E4B0" stroke-opacity="0.18"/>
+    <g opacity="0.55" fill="#D7C28E">
+      <rect x="12" y="16" width="13" height="8" rx="2"/>
+      <rect x="12" y="44" width="13" height="8" rx="2"/>
+      <rect x="12" y="72" width="13" height="8" rx="2"/>
+      <rect x="12" y="100" width="13" height="8" rx="2"/>
+      <rect x="12" y="128" width="13" height="8" rx="2"/>
+      <rect x="12" y="156" width="13" height="8" rx="2"/>
+      <rect x="12" y="184" width="13" height="8" rx="2"/>
+      <rect x="12" y="212" width="13" height="8" rx="2"/>
+      <rect x="63" y="16" width="13" height="8" rx="2"/>
+      <rect x="63" y="44" width="13" height="8" rx="2"/>
+      <rect x="63" y="72" width="13" height="8" rx="2"/>
+      <rect x="63" y="100" width="13" height="8" rx="2"/>
+      <rect x="63" y="128" width="13" height="8" rx="2"/>
+      <rect x="63" y="156" width="13" height="8" rx="2"/>
+      <rect x="63" y="184" width="13" height="8" rx="2"/>
+      <rect x="63" y="212" width="13" height="8" rx="2"/>
     </g>
-
-    <text x="38" y="60" fill="#F6F6EF">API</text>
-    <text x="119" y="60" fill="#D7D7CF">QUEUE</text>
-    <text x="212" y="60" fill="#D7D7CF">DATA</text>
-    <text x="283" y="60" fill="#F6F6EF">SHIP</text>
-
-    <text x="24" y="96" fill="#8D8D86">root cause</text>
-    <text x="139" y="96" fill="#8D8D86">sync</text>
-    <text x="214" y="96" fill="#8D8D86">infra</text>
-    <text x="286" y="96" fill="#8D8D86">clean fixes</text>
+    <rect x="31" y="22" width="26" height="52" rx="4" fill="#191713" stroke="#F8E4B0" stroke-opacity="0.12"/>
+    <rect x="31" y="90" width="26" height="52" rx="4" fill="#141414" stroke="#F8E4B0" stroke-opacity="0.12"/>
+    <rect x="31" y="158" width="26" height="52" rx="4" fill="#1A1710" stroke="#F8E4B0" stroke-opacity="0.12"/>
+    <path d="M36 196C42 180 49 178 54 198" stroke="#D7C28E" stroke-opacity="0.35"/>
   </g>
 
-  <!-- small visual signature -->
-  <g opacity="0.28">
-    <path d="M958 188C1000 154 1038 158 1086 196" stroke="#FFFFFF" stroke-width="1"/>
-    <path d="M970 204C1006 178 1038 181 1072 207" stroke="#FFFFFF" stroke-width="1"/>
-    <circle cx="990" cy="190" r="3" fill="#FFFFFF"/>
+  <!-- editorial title -->
+  <g transform="translate(174 92)">
+    <text x="0" y="0" fill="#F6E9CA" font-family="SF Mono, ui-monospace, Menlo, Consolas, monospace" font-size="12" letter-spacing="3.6">THE MELAN CODEUR</text>
+    <text x="0" y="74" fill="#FAF7EF" font-family="SF Pro Display, Inter, Helvetica Neue, Arial, sans-serif" font-size="64" font-weight="760" letter-spacing="-3.1">NGUYEN KHANH</text>
+    <text x="2" y="112" fill="#D7D0C0" font-family="SF Pro Text, Inter, Helvetica Neue, Arial, sans-serif" font-size="23" font-weight="430" letter-spacing="-0.35">Backend systems, built with a cinematic eye.</text>
+    <g transform="translate(2 148)" font-family="SF Mono, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="1.45">
+      <text x="0" y="0" fill="#AFA58C">POS</text>
+      <circle cx="42" cy="-4" r="2" fill="#C8A85B"/>
+      <text x="60" y="0" fill="#AFA58C">HR</text>
+      <circle cx="94" cy="-4" r="2" fill="#C8A85B"/>
+      <text x="112" y="0" fill="#AFA58C">E-LEARNING</text>
+      <circle cx="212" cy="-4" r="2" fill="#C8A85B"/>
+      <text x="230" y="0" fill="#AFA58C">QUEUES</text>
+      <circle cx="306" cy="-4" r="2" fill="#C8A85B"/>
+      <text x="324" y="0" fill="#AFA58C">CDC</text>
+      <circle cx="372" cy="-4" r="2" fill="#C8A85B"/>
+      <text x="390" y="0" fill="#AFA58C">INFRA</text>
+    </g>
   </g>
 
-  <text x="1048" y="222" fill="#77776F" font-family="SF Mono, ui-monospace, Menlo, Consolas, monospace" font-size="10" letter-spacing="1.6">SYSTEMS / FRAMES</text>
+  <!-- system monitor panel -->
+  <g transform="translate(686 86)" filter="url(#softShadow)">
+    <rect x="0" y="0" width="402" height="214" rx="18" fill="#090909" fill-opacity="0.76" stroke="#F4E0AA" stroke-opacity="0.17"/>
+    <rect x="16" y="18" width="370" height="42" rx="10" fill="#FFFFFF" fill-opacity="0.035" stroke="#FFFFFF" stroke-opacity="0.07"/>
+    <text x="31" y="44" fill="#E8DBC0" font-family="SF Mono, ui-monospace, Menlo, Consolas, monospace" font-size="12" letter-spacing="1.8">PRODUCTION MAP / ROOT CAUSE FIRST</text>
+
+    <g font-family="SF Mono, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="1.2">
+      <path d="M70 118H144M184 118H258M298 118H346" stroke="#E4C879" stroke-opacity="0.52" stroke-dasharray="4 8"/>
+      <path d="M144 118C154 82 172 82 184 118" stroke="#E4C879" stroke-opacity="0.28"/>
+      <path d="M258 118C268 154 286 154 298 118" stroke="#E4C879" stroke-opacity="0.28"/>
+
+      <g filter="url(#blurGlow)">
+        <rect x="34" y="94" width="70" height="48" rx="12" fill="#15120B" stroke="#F2D68D" stroke-opacity="0.58"/>
+        <rect x="134" y="94" width="70" height="48" rx="12" fill="#111111" stroke="#F2D68D" stroke-opacity="0.46"/>
+        <rect x="234" y="94" width="70" height="48" rx="12" fill="#111111" stroke="#F2D68D" stroke-opacity="0.46"/>
+        <rect x="318" y="94" width="54" height="48" rx="12" fill="#15120B" stroke="#F2D68D" stroke-opacity="0.58"/>
+      </g>
+
+      <text x="51" y="123" fill="#FFF8E8">API</text>
+      <text x="147" y="123" fill="#E6DCC6">QUEUE</text>
+      <text x="249" y="123" fill="#E6DCC6">DATA</text>
+      <text x="328" y="123" fill="#FFF8E8">SHIP</text>
+
+      <text x="34" y="176" fill="#9E957F">correctness</text>
+      <text x="142" y="176" fill="#9E957F">sync</text>
+      <text x="210" y="176" fill="#9E957F">cache</text>
+      <text x="286" y="176" fill="#9E957F">deploy</text>
+    </g>
+  </g>
+
+  <!-- camera metadata / signature -->
+  <g font-family="SF Mono, ui-monospace, Menlo, Consolas, monospace" font-size="10" letter-spacing="1.6" fill="#817865">
+    <text x="174" y="300">ISO 400  ·  f/2.8  ·  24 FPS</text>
+    <text x="848" y="322">@the.melancodeur</text>
+    <text x="1012" y="322">SYSTEMS / FRAMES</text>
+  </g>
 </svg>
